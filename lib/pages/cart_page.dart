@@ -11,7 +11,7 @@ class CartPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("Cart Page")),
+        title: Center(child: Text("Cart Page 1")),
       ),
        body: ListView.builder(
            itemCount: cart.length,
